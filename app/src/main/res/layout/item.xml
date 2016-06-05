@@ -9,7 +9,7 @@
         android:layout_centerVertical="true"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:scaleType="centerInside" />
+        android:scaleType="centerCrop"/>
 
     <TextView
         android:id="@+id/titleTextView"

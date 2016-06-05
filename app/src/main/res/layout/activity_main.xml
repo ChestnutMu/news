@@ -4,11 +4,23 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="刷新"/>
+    </RelativeLayout>
+
     <ListView android:id="@+id/listView"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:paddingRight="1px"
+        android:paddingRight="1dp"
         android:layout_marginBottom="40dp"
         android:drawSelectorOnTop="false"
         />
